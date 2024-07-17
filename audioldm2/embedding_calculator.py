@@ -3,7 +3,7 @@ import torch
 import openai
 import os
 
-openai.api_key = "sk-proj-fYPNuYrCXSSKrONyHZdyT3BlbkFJeCkHQFC1nBwGXsqz8Ade"
+openai.api_key = ""
 
 class EmbeddingCalculator(object):
     def __init__(self, embedding_model=None, prompt_length=10):
