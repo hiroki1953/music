@@ -1,0 +1,21 @@
+name: audio_env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8
+  - pip
+  - pip:
+      - torch
+      - tqdm
+      - librosa
+      - numpy
+      - soundfile
+      - pathlib
+      - transformers
+      - torchaudio
+      - omegaconf
+      - scipy
+      - diffusers
+      - openai==0.28
+      - accelerate
