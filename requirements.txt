@@ -9,4 +9,7 @@ torchaudio
 omegaconf
 scipy
 diffusers
-openai
+openai==0.28
+accelerate
+nltk
+IPython
